@@ -1,11 +1,9 @@
-const elemCategories = document.querySelector('#categories');
-//console.log(elemCategories);
-const elemItems = elemCategories.querySelectorAll('.item');
-console.log(`В списке ${elemItems.length} категории`);
-console.log('');
-//console.log(elemItems);
+const newCategories = document.querySelector('#categories');
+console.log(newCategories);
+const newItems = newCategories.querySelectorAll('.item');
+
 const titles = [];
-elemItems.forEach(elem => {
+newItems.forEach(elem => {
   console.log('Категория : ', elem.getElementsByTagName('h2')[0].textContent);
   console.log(
     'Количество эелментов : ',
@@ -13,4 +11,4 @@ elemItems.forEach(elem => {
   );
   console.log('');
 });
-//console.log(title.flatMap(elem => Object.values(elem)));
+console.log(title.flatMap(elem => Object.values(elem)));
