@@ -1,5 +1,5 @@
 const newCategories = document.querySelector('#categories');
-console.log(newCategories);
+// console.log(newCategories);
 const newItems = newCategories.querySelectorAll('.item');
 
 const titles = [];
