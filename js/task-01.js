@@ -3,7 +3,7 @@ console.log(newCategories);
 const newItems = newCategories.querySelectorAll('.item');
 
 
-const titles = [];
+const title = [];
 newItems.forEach(elem => {
   console.log('Категория : ', elem.getElementsByTagName('h2')[0].textContent);
   console.log(
