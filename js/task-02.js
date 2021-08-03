@@ -10,7 +10,7 @@ const ingredients = [
   const addingredients = (array, selector) => {
       array.map(item => {
           const list = document.createElement('li');
-          list.classList = 'item';
+          list.textContent = item;
           return list;
       });
 
