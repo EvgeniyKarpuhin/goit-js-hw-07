@@ -14,7 +14,7 @@ const ingredients = [
           return list;
       });
 
-      return document.querySelector(selector).append(...addingredients);
+      return document.querySelector(selector).append(...list);
   }
 
   addingredients(ingredients, '#ingredients');
