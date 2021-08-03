@@ -11,4 +11,4 @@ newItems.forEach(elem => {
   );
   console.log('');
 });
-console.log(titles.flatMap(elem => Object.values(elem)));
+// console.log(titles.flatMap(elem => Object.values(elem)));
