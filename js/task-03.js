@@ -12,27 +12,10 @@ const images = [
       alt: 'Group of Horses Running',
     },
   ];
-  
-//   const addList = document.querySelector('#gallery');
 
-//   const image = images[0];
-//   const addImages = images.map(image => {
-//     const newList = document.createElement('li');
-//     newList.classList = 'gallery__img';
-
-// const imgNew = document.createElement('img');
-// imgNew.src = image.url;
-// imgNew.alt = image.alt;
-// imgNew.width = 320;
-
-// newList.appendChild(imgNew);
-
-// addList.append(newList);
-//   });
 
 function createList(images) {
     const addList = document.querySelector('#gallery');
-    // addList.classList.add('gallery__img');
     
     const imgNew = images.reduce(
       (image, item) => 
@@ -40,6 +23,7 @@ function createList(images) {
       <img class = "gallery__img" 
       src = "${item.url}"
       alt = "${item.alt}" 
+      list-style-type = "none"
       width = 320 >
       </li>`,
       ""
