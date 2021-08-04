@@ -47,4 +47,4 @@ function createList(images) {
     
     addList.insertAdjacentHTML('afterbegin', imgNew);  
   };
-  makeGallery(images);
+  createList(images);
