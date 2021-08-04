@@ -11,10 +11,10 @@ const ingredients = [
       const test = array.map(item => {
           const list = document.createElement('li');
           list.textContent = item;
-          return list;
+          return test;
       });
 
-      document.querySelector(selector).append(array);
+      document.querySelector(selector).append(test);
   }
 
   addIngredients(ingredients, '#ingredients');
