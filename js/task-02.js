@@ -8,7 +8,7 @@ const ingredients = [
   ];
 
   const addIngredients = (array, selector) => {
-      array.map(item => {
+      const test = array.map(item => {
           const list = document.createElement('li');
           list.textContent = item;
           return list;
