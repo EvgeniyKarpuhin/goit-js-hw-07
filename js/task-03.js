@@ -23,7 +23,7 @@ function createList(images) {
       <img class = "gallery__img" 
       src = "${item.url}"
       alt = "${item.alt}" 
-      list-style = none
+      list-style = "none"
       width = 320 >
       </li>`,
       ""
