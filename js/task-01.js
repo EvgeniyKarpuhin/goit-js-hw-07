@@ -1,5 +1,5 @@
 const newCategories = document.querySelector('#categories');
-// console.log(newCategories);
+
 const newItems = newCategories.querySelectorAll('.item');
 
 const titles = [];
@@ -11,4 +11,3 @@ newItems.forEach(elem => {
   );
   console.log('');
 });
-// console.log(titles.flatMap(elem => Object.values(elem)));
