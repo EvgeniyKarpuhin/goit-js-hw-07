@@ -7,7 +7,7 @@ decrement.addEventListener('click', decrem);
 increment.addEventListener('click', increm);
 
 function decrem() {
-    valueId.textContent -= 1;
+    counterValue.textContent -= 1;
 }
 
 function increm () {
