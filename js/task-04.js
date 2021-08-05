@@ -1,5 +1,5 @@
 const number = document.querySelector('#counter');
-const valueId = document.querySelector('#value');
+const counterValue = document.querySelector('#value');
 const decrement = number.firstElementChild;
 const increment = number.lastElementChild;
 
@@ -11,7 +11,6 @@ function decrem() {
 }
 
 function increm () {
-    // valueId.textContent +=1;
-    valueId.textContent = Number(valueId.textContent) + 1;
+    counterValue.textContent = Number(counterValue.textContent) + 1;
 }
 
