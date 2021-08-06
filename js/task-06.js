@@ -1,7 +1,7 @@
 const inputValue = document.querySelector('#validation-input');
 
 const inputLength = inputValue.getAttribute('data-length');
-const inputLenTotal = parseInt(inputLength, 6);
+const inputLenTotal = parseInt(inputLength, 10);
 
 inputValue.oninput = function() {
     if (inputValue.value.length === inputLenTotal) {
